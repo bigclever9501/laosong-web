@@ -73,22 +73,21 @@ export default {
 					desc: 'nanobanana-pro文生图',
 					sku: 'nanobanana-pro文生图（最多支持4K）',
 					price: '0.50' // 你可以在这里随意修改扣除的点数
-				}
+				},
 
 				// ---------【新增】Grok 组 ---------
                 {
 					type: 'Grok视频生成',
 					desc: 'Grok 视频生成-标准版',
-					sku: 'grok-imagine-1.0-video（480p / 6秒）',
+					sku: 'grok-imagine-1.0-video（480p / 6秒，支持 fun / normal / spicy / custom 风格）',
 					price: '0.50'
 				},
 				{
 					type: 'Grok视频生成',
 					desc: 'Grok 视频生成-高级版',
-					sku: 'grok-imagine-1.0-video-super（480p/720p，5/10/15秒）',
+					sku: 'grok-imagine-1.0-video-super（480p/720p，6/10/15秒，支持 fun / normal / spicy / custom 风格）',
 					price: '1.00'
-				}
-			]
+				}]
 		}
 	},
 	methods: {
