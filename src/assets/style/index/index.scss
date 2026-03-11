@@ -1,0 +1,154 @@
+.notice_box{
+	width: 100%;
+	height: 40px;
+	line-height: 40px;
+	border-radius: 5px;
+	background-color: #fff;
+	padding-left: 10px;
+	// border: 1px solid #F4F4F4;
+	i{
+		font-size:16px;
+		padding: 0 10px 0 10px;
+		color: #b2b2b2;
+	}
+	.n_more{
+		float: right;
+		padding-right:20px;
+		color: var(--color);
+	}
+}
+.card-box{
+	display:flex;
+	flex-wrap: wrap;
+	// margin-top:20px;
+	.item {
+		width:25%;
+		.title {
+			font-size:14px;
+			color: #7e848b;
+			margin-top: 30px;
+		}
+		.num {
+			font-size: 28px;
+			color: #303945;
+			margin-top: 20px;
+			font-family: 'KingsoftNum';
+		}
+	}
+}
+.menu-list{
+	display: flex;
+	flex-direction: row;
+	.item{
+		margin-top: 20px;
+		height: 30px;
+		padding-left: 10px;
+		width: 16%;
+		display: flex;
+		align-items: center;
+		align-items: center;
+		.icon{
+			background-color: var(--color);
+			border-radius: 4px;
+			height: 26px;
+			width: 26px;
+			display: flex;
+			justify-content: center;
+			i{
+				line-height: 26px;
+				font-size: 16px;
+				color: #fff;
+			}
+		}
+		.menu-title{
+			font-size: 14px;
+			color: #303945;
+			padding-left: 10px;
+		}
+	}
+}
+.right-box{
+	margin-left: 5px;
+	margin-top: 10px;
+	background-color: #fff;
+	height: 772px;
+	max-height: 772px;
+	border-radius: 5px;
+}
+.course-data{
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	.top-item{
+		margin-top: 10px;
+		width: 100%;
+		height: 30px;
+		border: 1px solid var(--borderColor);
+		display: flex;
+		align-items: center;
+		padding: 0 5px;
+		.one{
+			flex: 30px;
+			display: flex;
+		}
+		.two{
+			flex: 80px;
+			text-align: left;
+		}
+		.three{
+			// flex: 100px;
+			.name{
+				margin-left: 5px;
+			}
+		}
+		.xl{
+			margin-left: 5px;
+			// color: var(--color);
+			// font-weight: bold;
+		}
+	}
+	.item{
+		margin-top: 10px;
+		width: 100%;
+		height: 62px;
+		border: 1px solid var(--borderColor);
+		display: flex;
+		align-items: center;
+		padding: 0 5px;
+		.one{
+			flex: 30px;
+			display: flex;
+			.icon{
+				width: 30px;
+				height: 30px;
+			}
+			.d-num{
+				width: 30px;
+				font-weight: bold;
+				font-size: 18px;
+				color: #939799;
+				text-align: center;
+			}
+		}
+		.two{
+			flex: 80px;
+			.img{
+				width: 80px;
+				height: 48px;
+				border-radius: 2px;
+				margin-left: 5px;
+			}
+		}
+		.three{
+			// flex: 100px;
+			.name{
+				margin-left: 5px;
+			}
+		}
+		.xl{
+			margin-left: 5px;
+			// color: var(--color);
+			// font-weight: bold;
+		}
+	}
+}
