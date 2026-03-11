@@ -75,7 +75,7 @@ export default {
 					price: '0.50' // 你可以在这里随意修改扣除的点数
 				},
 				// --------- Grok 组 ---------
-	{
+				{
 					type: 'Grok视频生成',
 					desc: 'Grok 视频生成-标准版',
 					sku: 'grok-imagine-1.0-video（480p / 6秒，支持 fun / normal / spicy / custom 风格）',
