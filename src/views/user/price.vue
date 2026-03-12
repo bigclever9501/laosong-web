@@ -89,13 +89,13 @@ export default {
 				},
 				// --------- Veo 组 ---------
 				{
-					type: 'Veo视频生成',
-					desc: 'Veo 视频生成-标准版',
+					type: 'Veo视频生成（可传首尾帧）',
+					desc: 'Veo 视频生成-标准版1920x1080',
 					sku: 'veo_3_1-fast-fl / veo_3_1-fast / veo3.1-fast',
 					price: '1.00'
 				},
 				{
-					type: 'Veo视频生成',
+					type: 'Veo视频生成（可传首尾帧）',
 					desc: 'Veo 视频生成-4K版',
 					sku: 'veo_3_1-4K / veo_3_1-components-4K',
 					price: '2.00'
